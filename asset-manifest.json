@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cartogo-front/static/css/main.857bd1e4.css",
-    "main.js": "/cartogo-front/static/js/main.3a370114.js",
+    "main.css": "/cartogo-front/static/css/main.ada9a5b6.css",
+    "main.js": "/cartogo-front/static/js/main.b3adfce0.js",
     "static/media/wp7118492-kia-k5-gt-line-hd-wallpapers.jpg": "/cartogo-front/static/media/wp7118492-kia-k5-gt-line-hd-wallpapers.f84b7d1393943fc8d2d8.jpg",
     "static/media/wp7118496-kia-k5-gt-line-hd-wallpapers.jpg": "/cartogo-front/static/media/wp7118496-kia-k5-gt-line-hd-wallpapers.cc4fcc2d51dd8d95bbb4.jpg",
     "static/media/best-car-rental-uk_lead.webp": "/cartogo-front/static/media/best-car-rental-uk_lead.aaca37d2b806c817bd01.webp",
     "index.html": "/cartogo-front/index.html",
-    "main.857bd1e4.css.map": "/cartogo-front/static/css/main.857bd1e4.css.map",
-    "main.3a370114.js.map": "/cartogo-front/static/js/main.3a370114.js.map"
+    "main.ada9a5b6.css.map": "/cartogo-front/static/css/main.ada9a5b6.css.map",
+    "main.b3adfce0.js.map": "/cartogo-front/static/js/main.b3adfce0.js.map"
   },
   "entrypoints": [
-    "static/css/main.857bd1e4.css",
-    "static/js/main.3a370114.js"
+    "static/css/main.ada9a5b6.css",
+    "static/js/main.b3adfce0.js"
   ]
 }
