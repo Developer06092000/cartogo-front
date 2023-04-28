@@ -1,0 +1,15 @@
+.yandex-map-css {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.yandex-map-css .ymap {
+  width: 100% inherit;
+  height: 400px;
+}
+
+.yandex-map-css .map {
+  width: 100% inherit;
+  height: 400px;
+}

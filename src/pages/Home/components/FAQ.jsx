@@ -67,33 +67,29 @@ export default function FAQ() {
   return (
     <div className="faq bg-light py-4">
       <div className="container">
-        <h1 className="text-center">FAQ</h1>
-        {array.map((item, key) => {
-          return (
-            <div key={key} className="faq-items my-4">
-              <h4 className="item-text" onClick={() => handleChange(key)}>
-                {item.text.trim()}
-              </h4>
-              {item.active && (
-                <div className="item-body mt-2">
-                  <h6 className="item-question">
-                    {item.question.trim().length
-                      ? item.question.trim() + (item.answers.length ? ":" : ".")
-                      : ""}
+        <h2 className="text-center">FAQ</h2>
+        {array.map((item, key) => (
+          <div key={key} className="faq-items my-4">
+            <h4 className="item-text" onClick={() => handleChange(key)}>
+              {item.text.trim()}
+            </h4>
+            {item.active && (
+              <div className="item-body mt-2">
+                <h6 className="item-question">
+                  {item.question.trim().length
+                    ? item.question.trim() + (item.answers.length ? ":" : ".")
+                    : ""}
+                </h6>
+                {item.answers.map((item1, key1) => (
+                  <h6 key={key1} className="item-answer ms-3">
+                    &mdash; {item1.answer}
+                    {item.answers.length === key1 + 1 ? "." : ";"}
                   </h6>
-                  {item.answers.map((item1, key1) => {
-                    return (
-                      <h6 key={key1} className="item-answer ms-3">
-                        &mdash; {item1.answer}
-                        {item.answers.length === key1 + 1 ? "." : ";"}
-                      </h6>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
-          );
-        })}
+                ))}
+              </div>
+            )}
+          </div>
+        ))}
       </div>
     </div>
   );
