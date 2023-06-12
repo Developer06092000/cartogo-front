@@ -27,7 +27,7 @@ export const data = [
         image: k5a2,
     },
     {
-        id: 2,
+        id: 3,
         name: "K5",
         brand: "KIA",
         company: "Rent Car",
@@ -39,7 +39,7 @@ export const data = [
         image: k5a2,
     },
     {
-        id: 2,
+        id: 4,
         name: "K5",
         brand: "KIA",
         company: "Rent Car",
@@ -51,7 +51,7 @@ export const data = [
         image: k5a2,
     },
     {
-        id: 2,
+        id: 5,
         name: "K5",
         brand: "KIA",
         company: "Rent Car",
@@ -63,7 +63,7 @@ export const data = [
         image: k5a2,
     },
     {
-        id: 2,
+        id: 6,
         name: "K5",
         brand: "KIA",
         company: "Rent Car",

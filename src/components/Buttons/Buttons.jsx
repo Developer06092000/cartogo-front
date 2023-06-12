@@ -8,9 +8,9 @@ export const MyButton = ({ children }) => {
     );
 };
 
-export const OrderBtn = ({ children }) => {
+export const OrderBtn = ({ children, type = "button" }) => {
     return (
-        <button type="button" className="btn btn-success order-btn ">
+        <button type={type} className="btn btn-success order-btn">
             {children}
         </button>
     );
