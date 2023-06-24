@@ -189,7 +189,7 @@ const Order = () => {
                     >
                         <Form.Item
                             name={["confirm", "number"]}
-                            label="Card number"
+                            label="Confirm code"
                             rules={[
                                 {
                                     required: true,
@@ -204,8 +204,8 @@ const Order = () => {
                     </Form>
                 ) : (
                     <p className="max-w-[600px] mx-auto text-justify">
-                        Your order has been accepted. Order number 2953 has been sent to your phone number via SMS.
-                        Don't lose your order number. Bring your ID when picking up your order.
+                        Your order has been accepted. Order number <b>#ID 2953</b> has been sent to your phone number
+                        via SMS. Don't lose your order number. Bring your ID when picking up your order.
                     </p>
                 )}
             </div>

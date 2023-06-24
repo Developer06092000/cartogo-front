@@ -5,13 +5,13 @@ import FAQ from "./components/FAQ";
 import Contact from "../../components/Contact/Contact";
 
 export default function Home() {
-  return (
-    <div className="home-container">
-      <Header />
-      <Offers />
-      <Services />
-      <FAQ />
-      <Contact />
-    </div>
-  );
+    return (
+        <div className="home-container">
+            <Header />
+            <Offers />
+            <Services />
+            <FAQ />
+            <Contact />
+        </div>
+    );
 }
